@@ -11,6 +11,7 @@ are required to see The Priorities.The Priorties of The Game are:-
 3:All The other Block is having the least Priority
 So lets Begin
 There is no possible way to Win This Game From Computer
+Source Code Link is Given in the Discription
 */
 #include<iostream.h>
 #include<conio.h>
@@ -312,6 +313,25 @@ void caseot()
 	if(board[4]==-1)
 	{
 		prior=4;
+	}
+	else if((board[0]==1&&board[2]==1)||(board[0]==1&&board[6]==1)||(board[0]==1&&board[8]==1))
+	{
+		if(board[1]==-1)
+		{
+			prior=1;
+		}
+		else if(board[3]==-1)
+		{
+			prior=3;
+		}
+		else if(board[5]==-1)
+		{
+			prior=5;
+		}
+		else if(board[7]==-1)
+		{
+			prior=7;
+		}
 	}
 	else if(board[0]==-1)
 	{
