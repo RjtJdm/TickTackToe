@@ -12,6 +12,12 @@ are required to see The Priorities.The Priorties of The Game are:-
 So lets Begin
 There is no possible way to Win This Game From Computer
 Source Code Link is Given in the Discription
+
+
+HERE I HAVE LEFT A CASE IN WHICH A USER CAN WIN BECAUSE IT IS BORING TO PLAY A GAME IN WHICH WE CAN NOT WIN.
+SO IT CAN BE A CHALLENGE TO FIND OUT THE CASE AND WIN!!!!!
+
+
 */
 #include<iostream.h>
 #include<conio.h>
