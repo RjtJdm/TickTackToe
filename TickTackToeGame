@@ -4,15 +4,13 @@ We are making a game of a most popular game tick Tack Toe.
 For This let Consider The Board(board[9]) or The Playground be represented by
 an Array.
 We Define The Term Priorties .
-At The Initial Movement or in some cases of Conflinction we
-are required to see The Priorities.The Priorties of The Game are:-
+At The Initial Movement or in some cases of Conflict we
+are required to see The Priorities.
+The Priorties of The Game are:-
 1:Middle Block (board[4]) has The Highest Priority
-2:Corner Blocks has The Highest Priority ie....board[0,2,6,8]
+2:Corner Blocks has The second Highest Priority ie....board[0,2,6,8]
 3:All The other Block is having the least Priority
 So lets Begin
-There is no possible way to Win This Game From Computer
-Source Code Link is Given in the Discription
-
 
 HERE I HAVE LEFT A CASE IN WHICH A USER CAN WIN BECAUSE IT IS BORING TO PLAY A GAME IN WHICH WE CAN NOT WIN.
 SO IT CAN BE A CHALLENGE TO FIND OUT THE CASE AND WIN!!!!!
